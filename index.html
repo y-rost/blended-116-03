@@ -4,21 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bisnes promorion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <a href="./index.html"><img src="imeges/logo.png" alt="logo" /></a>
-      <nav>
+      <nav class="navigation">
         <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
+          <li class="nav-list-item">
+            <a href="./index.html" class="nav-list-link">Product</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="./pricing.html" class="nav-list-link">Pricing</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="./customers.html" class="nav-list-link">Customers</a>
+          </li>
+          <li class="nav-list-item"><a href="">Resources</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
+      <ul class="header-list-btn">
+        <li class="header-list-item">
+          <button type="button" class="header-list-sign">Sign In</button>
+        </li>
+        <li class="header-list-item">
+          <button type="button" class="header-list-signup">Sign Up</button>
+        </li>
       </ul>
     </header>
     <main>
